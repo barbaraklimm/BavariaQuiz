@@ -1,0 +1,119 @@
+<resources>
+
+    <string name="app_name">Bavaria Quiz</string>
+    <string name="title_activity_result">activity_result</string>
+
+    <!-- Strings main activitiy -->
+    <string name="main_textEdit_hintText">Enter your name</string>
+    <string name="main_buttonText">Start</string>
+    <string name="enterName">Please enter your name</string>
+
+    <!-- Strings dialog instructions -->
+    <string name="dialog_instructions_headline1">What do you know about Bavaria?</string>
+    <string name="dialog_instructions_headline2">Find out now!</string>
+    <string name="dialog_instructions_copy">Answer the following questions and click on the result button.</string>
+    <string name="dialog_instructions_buttonText">Got it!</string>
+    <string name="instructiondialogHeadline">, what do you know about Bavaria?</string>
+
+    <!-- Notifications -->
+    <string name="answerQuestion2">Please answer question 2</string>
+    <string name="answerQuestion3">Please answer question 3</string>
+    <string name="answerQuestion4">Please answer question 4</string>
+    <string name="answerQuestion6">Please answer question 6</string>
+    <string name="answerQuestion7">Please answer question 7</string>
+    <string name="answerQuestion8">Please answer question 8</string>
+    <string name="answerQuestion9">Please answer question 9</string>
+    <string name="answerQuestion10">Please answer question 10</string>
+
+    <!-- Strings dialog result -->
+    <string name="dialog_result_headline1">10/10</string>
+    <string name="dialog_result_headline2">Good job!</string>
+    <string name="dialog_result_button1">Missed questions</string>
+    <string name="dialog_result_button2">Mail a friend</string>
+    <string name="resultless4">, it is time to visit Bavaria. Get to know our exciting and beautiful state!</string>
+    <string name="resultless8part1">Good news&#160;</string>
+    <string name="resultless8part2">! There is still so much more to discover about Bavaria!</string>
+    <string name="resultless10part1">Great job,&#160;</string>
+    <string name="resultless10part2">! It seems you are a local!</string>
+    <string name="resultdescriptionless4">It is time for me to visit Bavaria. Come and join me! Let us discover this exciting and beautiful state together. :)</string>
+    <string name="resultdescriptionless8">It seems that I can still discover much more about Bavaria, so let us find out together! :)</string>
+    <string name="resultdescriptionless10">It seems I am a local! :D Yeahhhi!</string>
+
+    <!-- Email text -->
+    <string name="emailSubject">Check out my result in the Bavaria Quiz</string>
+    <string name="emailCopyPart1">Hi,\n\nI participated in the Bavaria Quiz.\n\nCheck out my result:\n</string>
+    <string name="emailCopyPart2">&#160;answers about Bavaria were correct!\n\n</string>
+    <string name="emailCopyPart3">\n\nKind regards,&#160;</string>
+    <string name="processMessage">Send mail...</string>
+    <string name="exceptionMessage">There are no email clients installed.</string>
+
+    <!-- Strings questions activity -->
+    <string name="questions_question1">1. How many people live in Bavaria?</string>
+    <string name="questions_question1_seekbartext">8.4 Million</string>
+    <string name="question1selection1">8.4 million</string>
+    <string name="question1selection2">12.8 million</string>
+    <string name="question1selection3">26.9 million</string>
+
+    <string name="questions_question2">2. What is the capital of the German State of Bavaria?</string>
+    <string name="questions_question2_textedithint">Type your answer here</string>
+
+    <string name="questions_question3">3. What is Bavaria is biggest fair?</string>
+    <string name="questions_question3_radio1">Bergkirchweih Erlangen</string>
+    <string name="questions_question3_radio2">Oktoberfest Munich</string>
+    <string name="questions_question3_radio3">Nuremberg Volksfest</string>
+
+    <string name="questions_question4">4. What is Bavaria’s most visited tourist attraction?</string>
+    <string name="questions_question4_radio1">Oktoberfest</string>
+    <string name="questions_question4_radio2">Rothenburg ob der Tauber</string>
+    <string name="questions_question4_radio3">Neuschwanstein castle</string>
+
+    <string name="questions_question5">5. How many Bavarian soccer teams play in the first German Bundesliga?</string>
+    <string name="questions_question5_seekbartext">1 team</string>
+    <string name="question5selection1">1 team</string>
+    <string name="question5selection2">2 teams</string>
+    <string name="question5selection3">3 teams</string>
+
+    <string name="questions_question6">6. What is the name of FC Bayern’s soccer stadium?</string>
+    <string name="questions_question6_radio1">Allianz Arena</string>
+    <string name="questions_question6_radio2">Frankenstadion</string>
+    <string name="questions_question6_radio3">Stadion An der Alten Försterei</string>
+
+    <string name="questions_question7">7. Which companies, listed in the DAX or MDAX, have their head quarter in Bavaria?</string>
+    <string name="questions_question7_check1">Adidas</string>
+    <string name="questions_question7_check2">Allianz</string>
+    <string name="questions_question7_check3">Bayer</string>
+    <string name="questions_question7_check4">BMW</string>
+    <string name="questions_question7_check5">Daimler</string>
+    <string name="questions_question7_check6">Kuka</string>
+    <string name="questions_question7_check7">SAP</string>
+    <string name="questions_question7_check8">Siemens</string>
+
+    <string name="questions_question8">8. What is the best-selling Bavarian beer in Germany?</string>
+    <string name="questions_question8_radio1">Augustiner</string>
+    <string name="questions_question8_radio2">Erdinger</string>
+    <string name="questions_question8_radio3">Oettinger</string>
+    <string name="questions_question8_radio4">Paulaner</string>
+
+    <string name="questions_question9">9. What are the 7 Bavarian counties?</string>
+    <string name="questions_question9_check1">Upper Franconia</string>
+    <string name="questions_question9_check2">Middle Franconia</string>
+    <string name="questions_question9_check3">Lower Franconia</string>
+    <string name="questions_question9_check4">Upper Bavaria</string>
+    <string name="questions_question9_check5">Lower Bavaria</string>
+    <string name="questions_question9_check6">Upper Palatinate</string>
+    <string name="questions_question9_check7">Lower Palatinate</string>
+    <string name="questions_question9_check8">Swabia</string>
+    <string name="questions_question9_check9">Baden</string>
+
+    <string name="questions_question10">10. Which European river flows through Bavaria?</string>
+    <string name="questions_question10_check1">Danube</string>
+    <string name="questions_question10_check2">Elbe</string>
+    <string name="questions_question10_check3">Tiber</string>
+    <string name="questions_question10_check4">Seine</string>
+    <string name="questions_question10_check5">Po</string>
+    <string name="questions_question10_check6">Rhine</string>
+
+    <string name="questions_button1">Result</string>
+    <string name="questions_button2">Back to result</string>
+    <string name="questions_thankyoutext">Thank you for participating!</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    tools:context="com.example.android.bavariaquiz.MainActivity"
+    style="@style/linearLayout">
+
+    <LinearLayout
+        style="@style/linearLayout.landSecondary">
+
+        <ImageView
+            android:src="@drawable/bg_land_left"
+            style="@style/imageViewLand.Left"/>
+
+        <TextView
+            android:text="@string/app_name"
+            style="@style/textViewAppTitle.land"/>
+
+        <ImageView
+            android:src="@drawable/bg_land_right"
+            style="@style/imageViewLand.Right"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="@string/main_textEdit_hintText"
+        style="@style/mainEditText"/>
+
+    <Button
+        android:text="@string/main_buttonText"
+        android:onClick="goToQuiz"
+        style="@style/button.mainBorderlessButton_land"/>
+
+</LinearLayout>

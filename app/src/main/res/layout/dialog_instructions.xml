@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/dialoglinearlayout">
+
+    <TextView
+        android:id="@+id/quizquestion"
+        android:text="@string/dialog_instructions_headline1"
+        style="@style/dg_headline2"/>
+
+    <TextView
+        android:text="@string/dialog_instructions_headline2"
+        style="@style/dg_headline3"/>
+
+    <TextView
+        android:text="@string/dialog_instructions_copy"
+        style="@style/dg_copy_bold"/>
+
+    <Button
+        android:id="@+id/mclose"
+        android:text="@string/dialog_instructions_buttonText"
+        android:onClick="closeNotification"
+        style="@style/button.dg_instructions_button"/>
+</LinearLayout>

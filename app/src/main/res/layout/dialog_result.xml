@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/dialoglinearlayout">
+
+    <TextView
+        android:id="@+id/resultNumber"
+        android:text="@string/dialog_result_headline1"
+        style="@style/dg_headline2"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:text="@string/dialog_result_headline2"
+        style="@style/dg_headline3"/>
+
+    <LinearLayout
+        style="@style/dg_result_linearlayout">
+
+        <Button
+            android:id="@+id/mCheckMistakes"
+            android:text="@string/dialog_result_button1"
+            android:onClick="checkMistakes"
+            style="@style/button.dg_result_button"/>
+
+        <Button
+            android:id="@+id/mMailAFriend"
+            android:text="@string/dialog_result_button2"
+            android:onClick="mailAFriend"
+            style="@style/button.dg_result_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

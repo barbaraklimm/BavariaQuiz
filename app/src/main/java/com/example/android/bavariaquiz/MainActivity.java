@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
-    public void goToQuiz (View view){
+    public void goToQuiz(View view) {
         EditText nameText = (EditText) findViewById(R.id.name);
         String name = nameText.getText().toString();
         if (name.matches("")) {

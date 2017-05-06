@@ -2,34 +2,33 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
-    tools:context="com.example.android.bavariaquiz.MainActivity"
-    style="@style/linearLayout">
+    style="@style/linearLayout"
+    tools:context="com.example.android.bavariaquiz.MainActivity">
 
-    <LinearLayout
-        style="@style/linearLayout.landSecondary">
+    <LinearLayout style="@style/linearLayout.landSecondary">
 
         <ImageView
-            android:src="@drawable/bg_land_left"
-            style="@style/imageViewLand.Left"/>
+            style="@style/imageViewLand.Left"
+            android:src="@drawable/bg_land_left" />
 
         <TextView
-            android:text="@string/app_name"
-            style="@style/textViewAppTitle.land"/>
+            style="@style/textViewAppTitle.land"
+            android:text="@string/app_name" />
 
         <ImageView
-            android:src="@drawable/bg_land_right"
-            style="@style/imageViewLand.Right"/>
+            style="@style/imageViewLand.Right"
+            android:src="@drawable/bg_land_right" />
 
     </LinearLayout>
 
     <EditText
         android:id="@+id/name"
-        android:hint="@string/main_textEdit_hintText"
-        style="@style/mainEditText"/>
+        style="@style/mainEditText"
+        android:hint="@string/main_textEdit_hintText" />
 
     <Button
-        android:text="@string/main_buttonText"
+        style="@style/button.mainBorderlessButton_land"
         android:onClick="goToQuiz"
-        style="@style/button.mainBorderlessButton_land"/>
+        android:text="@string/main_buttonText" />
 
 </LinearLayout>

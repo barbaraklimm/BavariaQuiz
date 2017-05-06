@@ -10,11 +10,13 @@
     <dimen name="headline2_textsize">24sp</dimen>
     <dimen name="headline3_textsize">20sp</dimen>
     <dimen name="headline_paddingtop_land">0dp</dimen>
+    <dimen name="headline_paddingbottom_land">16dp</dimen>
 
     <!-- Dimensions Questions Activity -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="questionstext_size">18sp</dimen>
+    <dimen name="questionsbutton_size">22sp</dimen>
     <dimen name="questionstext_padding_bottom">12dp</dimen>
     <dimen name="questionstext_padding_right">48dp</dimen>
 

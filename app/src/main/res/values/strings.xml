@@ -57,12 +57,12 @@
     <string name="questions_question2">2. What is the capital of the German State of Bavaria?</string>
     <string name="questions_question2_textedithint">Type your answer here</string>
 
-    <string name="questions_question3">3. What is Bavaria is biggest fair?</string>
+    <string name="questions_question3">3. What is Bavarias biggest fair?</string>
     <string name="questions_question3_radio1">Bergkirchweih Erlangen</string>
     <string name="questions_question3_radio2">Oktoberfest Munich</string>
     <string name="questions_question3_radio3">Nuremberg Volksfest</string>
 
-    <string name="questions_question4">4. What is Bavaria’s most visited tourist attraction?</string>
+    <string name="questions_question4">4. What is Bavarias most visited tourist attraction?</string>
     <string name="questions_question4_radio1">Oktoberfest</string>
     <string name="questions_question4_radio2">Rothenburg ob der Tauber</string>
     <string name="questions_question4_radio3">Neuschwanstein castle</string>
@@ -73,7 +73,7 @@
     <string name="question5selection2">2 teams</string>
     <string name="question5selection3">3 teams</string>
 
-    <string name="questions_question6">6. What is the name of FC Bayern’s soccer stadium?</string>
+    <string name="questions_question6">6. What is the name of FC Bayerns soccer stadium?</string>
     <string name="questions_question6_radio1">Allianz Arena</string>
     <string name="questions_question6_radio2">Frankenstadion</string>
     <string name="questions_question6_radio3">Stadion An der Alten Försterei</string>

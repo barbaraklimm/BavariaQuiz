@@ -2,268 +2,271 @@
 
 
     <!-- Base application theme. -->
-        <style name="AppTheme" parent="Theme.AppCompat.Light">
-            <!-- Customize your theme here. -->
-            <item name="colorPrimary">@color/colorPrimary</item>
-            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-            <item name="colorAccent">@color/colorAccent</item>
-            <item name="android:textColor">@color/colorPrimaryDark</item>
-        </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
 
-        <style name="AppTheme.NoActionBar">
-            <item name="windowActionBar">false</item>
-            <item name="windowNoTitle">true</item>
-        </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 
-        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
     <!-- Main activity -->
-    
-        <!-- LinearLayouts-->
-        <style name="linearLayout">
-            <item name="android:orientation">vertical</item>
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">match_parent</item>
-            <item name="android:background">@color/colorPrimary</item>
-        </style>
 
-        <style name="linearLayout.landSecondary">
-            <item name="android:orientation">horizontal</item>
-            <item name="android:layout_height">@dimen/linearLayout_landSecondary_height</item>
-            <item name="android:layout_weight">5</item>
-        </style>
-        
-        <!-- ImageView-->
-        <style name="imageViewPortrait">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:adjustViewBounds">true</item>
-            <item name="android:layout_weight">0</item>
-        </style>
+    <!-- LinearLayouts-->
+    <style name="linearLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
 
-        <style name="imageViewLand">
-            <item name="android:layout_width">wrap_content</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:adjustViewBounds">true</item>
-            <item name="android:layout_weight">0</item>
-        </style>
+    <style name="linearLayout.landSecondary">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">@dimen/linearLayout_landSecondary_height</item>
+        <item name="android:layout_weight">5</item>
+    </style>
 
-        <style name="imageViewLand.Left">
-            <item name="android:scaleType">fitStart</item>
-        </style>
+    <!-- ImageView-->
+    <style name="imageViewPortrait">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_weight">0</item>
+    </style>
 
-        <style name="imageViewLand.Right">
-            <item name="android:scaleType">fitEnd</item>
-        </style>
-        
-        <!-- TextView App Title -->
-        <style name="textViewAppTitle">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:textSize">@dimen/headline_textsize</item>
-            <item name="android:paddingTop">@dimen/standard_space</item>
-            <item name="android:textColor">@color/colorPrimaryDark</item>
-            <item name="android:textStyle">bold</item>
-            <item name="android:gravity">center</item>
-            <item name="android:layout_weight">1</item>
-        </style>
+    <style name="imageViewLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_weight">0</item>
+    </style>
 
-        <style name="textViewAppTitle.land">x
-            <item name="android:layout_height">match_parent</item>
-            <item name="android:paddingTop">@dimen/headline_paddingtop_land</item>
-            <item name="android:gravity">bottom</item>
-            <item name="android:layout_weight">10</item>
-        </style>
-    
-        <!-- EditText View-->
-        <style name="mainEditText">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:layout_marginLeft">@dimen/standard_space</item>
-            <item name="android:layout_marginRight">@dimen/standard_space</item>
-            <item name="android:gravity">center_horizontal</item>
-            <item name="android:inputType">textCapWords</item>
-            <item name="android:layout_weight">1</item>
-        </style>
-    
-        <!-- ButtonView -->
-        <style name="button" parent="@style/Widget.AppCompat.Button.Borderless">
-            <item name="android:layout_width">wrap_content</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:layout_gravity">center</item>
-            <item name="android:textColor">@color/colorAccent</item>
-            <item name="android:textAllCaps">true</item>
-        </style>
+    <style name="imageViewLand.Left">
+        <item name="android:scaleType">fitStart</item>
+    </style>
 
-        <style name="button.mainBorderlessButton_portrait">
-            <item name="android:background">@color/colorPrimary</item>
-            <item name="android:layout_weight">2</item>
-        </style>
+    <style name="imageViewLand.Right">
+        <item name="android:scaleType">fitEnd</item>
+    </style>
 
-        <style name="button.mainBorderlessButton_land">
-            <item name="android:layout_weight">1</item>
-        </style>
+    <!-- TextView App Title -->
+    <style name="textViewAppTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/headline_textsize</item>
+        <item name="android:paddingTop">@dimen/standard_space</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="textViewAppTitle.land">x
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/headline_paddingtop_land</item>
+        <item name="android:paddingBottom">@dimen/headline_paddingbottom_land</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_weight">10</item>
+    </style>
+
+    <!-- EditText View-->
+    <style name="mainEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/standard_space</item>
+        <item name="android:layout_marginRight">@dimen/standard_space</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+
+    <!-- ButtonView -->
+    <style name="button" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="button.mainBorderlessButton_portrait">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="button.mainBorderlessButton_land">
+        <item name="android:layout_weight">1</item>
+    </style>
 
 
     <!-- AlertDialogs -->
 
-        <!-- General -->
-        <style name="dialoglinearlayout">
-            <item name="android:orientation">vertical</item>
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">match_parent</item>
-            <item name="android:layout_margin">@dimen/standard_space</item>
-            <item name="android:padding">@dimen/standard_space</item>
-        </style>
+    <!-- General -->
+    <style name="dialoglinearlayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/standard_space</item>
+        <item name="android:padding">@dimen/standard_space</item>
+    </style>
 
-        <style name="dg_headline2">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:gravity">center_horizontal</item>
-            <item name="android:paddingTop">@dimen/standard_space</item>
-            <item name="android:textSize">@dimen/headline2_textsize</item>
-            <item name="android:paddingBottom">@dimen/standard_space</item>
-        </style>
+    <style name="dg_headline2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/standard_space</item>
+        <item name="android:textSize">@dimen/headline2_textsize</item>
+        <item name="android:paddingBottom">@dimen/standard_space</item>
+    </style>
 
-        <style name="dg_headline3">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:paddingBottom">@dimen/standard_space</item>
-            <item name="android:textSize">@dimen/headline3_textsize</item>
-            <item name="android:gravity">center_horizontal</item>
-        </style>
+    <style name="dg_headline3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/standard_space</item>
+        <item name="android:textSize">@dimen/headline3_textsize</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
 
-        <style name="dg_copy_bold">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:textStyle">bold</item>
-        </style>
+    <style name="dg_copy_bold">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
-        <!-- Dialog instructions (dg_instructions)-->
-        <style name="button.dg_instructions_button">
-            <item name="android:layout_gravity">right</item>
-        </style>
+    <!-- Dialog instructions (dg_instructions)-->
+    <style name="button.dg_instructions_button">
+        <item name="android:layout_gravity">right</item>
+    </style>
 
-        <!-- Dialog result (dg_result)-->
-        <style name="dg_result_linearlayout">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:orientation">horizontal</item>
-        </style>
+    <!-- Dialog result (dg_result)-->
+    <style name="dg_result_linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
 
-        <style name="button.dg_result_button">
-            <item name="android:layout_weight">1</item>
-        </style>
+    <style name="button.dg_result_button">
+        <item name="android:layout_weight">1</item>
+    </style>
 
 
     <!-- Questions activity -->
 
-        <!-- Scrollview -->
-        <style name="scrollview">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">match_parent</item>
-            <item name="android:background">@color/colorAccent</item>
-            <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
-            <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
-            <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
-            <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
-        </style>
+    <!-- Scrollview -->
+    <style name="scrollview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
 
-        <!-- LinearLayouts -->
-        <style name="questions_linearlayout_main">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">match_parent</item>
-            <item name="android:orientation">vertical</item>
-        </style>
+    <!-- LinearLayouts -->
+    <style name="questions_linearlayout_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
 
-        <style name="questions_linearlayout_questions">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:background">@color/colorPrimary</item>
-            <item name="android:orientation">vertical</item>
-            <item name="android:padding">@dimen/standard_space</item>
-            <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
-        </style>
+    <style name="questions_linearlayout_questions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/standard_space</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+    </style>
 
-        <style name="questions_linearlayout_questions.first">
-            <item name="android:focusableInTouchMode">true</item>
-        </style>
+    <style name="questions_linearlayout_questions.first">
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
 
-        <style name="questions_linearlayout_check_first">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:orientation">horizontal</item>
-        </style>
+    <style name="questions_linearlayout_check_first">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
 
-        <style name="questions_linear_layout_check_second">
-            <item name="android:layout_width">wrap_content</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:orientation">vertical</item>
-            <item name="android:paddingRight">@dimen/questionstext_padding_right</item>
-        </style>
+    <style name="questions_linear_layout_check_second">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingRight">@dimen/questionstext_padding_right</item>
+    </style>
 
-        <!-- Buttons -->
-        <style name="button.questions_button">
-            <item name="android:textColor">@color/colorPrimary</item>
-            <item name="android:background">@color/colorAccent</item>
-        </style>
+    <!-- Buttons -->
+    <style name="button.questions_button">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/questionsbutton_size</item>
+    </style>
 
-        <style name="button.questions_button.hidden">
-            <item name="android:visibility">invisible</item>
-        </style>
+    <style name="button.questions_button.hidden">
+        <item name="android:visibility">invisible</item>
+    </style>
 
-        <!-- TextViews -->
-        <style name="questions_textview_thankyoutext">
-            <item name="android:layout_width">wrap_content</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:textSize">@dimen/headline_textsize</item>
-            <item name="android:textColor">@color/colorPrimary</item>
-            <item name="android:textAllCaps">true</item>
-            <item name="android:visibility">invisible</item>
-        </style>
+    <!-- TextViews -->
+    <style name="questions_textview_thankyoutext">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/headline_textsize</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:visibility">invisible</item>
+    </style>
 
-        <style name="questions_questiontext">
-            <item name="android:textSize">@dimen/questionstext_size</item>
-            <item name="android:paddingBottom">@dimen/questionstext_padding_bottom</item>
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-        </style>
+    <style name="questions_questiontext">
+        <item name="android:textSize">@dimen/questionstext_size</item>
+        <item name="android:paddingBottom">@dimen/questionstext_padding_bottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
-        <style name="questions_seekbartext">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:gravity">center_horizontal</item>
-        </style>
+    <style name="questions_seekbartext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
 
-        <!-- Interaction elements -->
-        <style name="questions_seekbar">
-            <item name="android:paddingBottom">@dimen/questionstext_padding_bottom</item>
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-        </style>
+    <!-- Interaction elements -->
+    <style name="questions_seekbar">
+        <item name="android:paddingBottom">@dimen/questionstext_padding_bottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
-        <style name="questions_textedit">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:inputType">textCapWords</item>
-        </style>
+    <style name="questions_textedit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
 
-        <style name="questions_radiogroup">
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-        </style>
+    <style name="questions_radiogroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
-        <style name="questions_radiobuttons">
-            <item name="android:layout_width">wrap_content</item>
-            <item name="android:layout_height">wrap_content</item>
-            <item name="android:layout_marginBottom">@dimen/questionstext_padding_bottom</item>
-        </style>
+    <style name="questions_radiobuttons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/questionstext_padding_bottom</item>
+    </style>
 
-        <style name="questions_checkbox">
-            <item name="android:layout_width">wrap_content</item>
-            <item name="android:layout_height">wrap_content</item>
-        </style>
+    <style name="questions_checkbox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
 </resources>
